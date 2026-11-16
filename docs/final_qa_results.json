@@ -1,0 +1,53 @@
+{
+  "validated_at": "2026-11-16T13:10:28.633576+00:00",
+  "deadline_local": "2026-11-18 12:00 Africa/Casablanca",
+  "python": "3.14.8",
+  "mysql": "26.10.0",
+  "development_database": "cliniq_db",
+  "development_read_only_audit": true,
+  "development_data_unchanged": true,
+  "tables": 15,
+  "rows": 89,
+  "table_counts": {
+    "SERVICE": 5,
+    "SPECIALITE": 5,
+    "MEDECIN": 5,
+    "EXERCER": 6,
+    "PATIENT": 7,
+    "RENDEZ_VOUS": 8,
+    "SALLE": 5,
+    "CONSULTATION": 7,
+    "MEDICAMENT": 5,
+    "PRESCRIRE": 7,
+    "CHAMBRE": 5,
+    "LIT": 7,
+    "HOSPITALISATION": 5,
+    "ACTE_MEDICAL": 5,
+    "DESIGNER_RESPONSABLE": 7
+  },
+  "three_triggers_verified": true,
+  "two_indexes_verified": true,
+  "columns_keys_checks_fk_rules_match_approved_test_schema": true,
+  "base_schema_seed_mcd_hashes_unchanged": true,
+  "test_seed_restored": true,
+  "pytest": {
+    "passed": 418,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "live_mysql_cases": 135,
+    "seconds": 15.82
+  },
+  "mypy": {
+    "files": 73,
+    "errors": 0
+  },
+  "live_streamlit": {
+    "pages_loaded": 7,
+    "workflow_sql_confirmed": true,
+    "trigger_errno": 1644,
+    "cif_errno": 1062,
+    "temporary_server_stopped": true,
+    "visual_browser_audit": false
+  }
+}

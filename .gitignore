@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+# Local secrets, database backups and reproducible submission output
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.dump
+backups/
+submission/
+.mypy_cache/

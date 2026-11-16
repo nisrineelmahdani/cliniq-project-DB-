@@ -1,0 +1,6 @@
+streamlit>=1.67,<2
+mysql-connector-python>=9.2,<27
+python-dotenv
+pytest
+pandas
+plotly

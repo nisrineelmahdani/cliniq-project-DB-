@@ -1,0 +1,51 @@
+:root {
+  --cliniq-rose: #E84C71; --cliniq-coral: #FF7B89; --cliniq-blush: #FCE7ED;
+  --cliniq-background: #FFF8FA; --cliniq-surface: #FFFFFF; --cliniq-text: #442638;
+  --cliniq-muted: #806775; --cliniq-border: #EEDFE5; --cliniq-deep: #C93F55;
+  --cliniq-radius: 18px; --cliniq-shadow: 0 5px 24px rgba(68,38,56,.035);
+}
+/* Only app-owned classes, explicit Streamlit keys and semantic HTML selectors. */
+.st-key-workspace { max-width: 1480px; margin: 0 auto; }
+.st-key-workspace h1 { font-size: clamp(1.65rem, 2.3vw, 2.25rem); font-weight: 750; letter-spacing: -.055em; line-height: 1.2; }
+.st-key-workspace h2, .st-key-workspace h3 { letter-spacing: -.035em; line-height: 1.35; }
+.eyebrow { color: var(--cliniq-deep); font-size: .68rem; letter-spacing: .15em; font-weight: 750; margin: 0 0 .4rem; }
+.st-key-cliniq_page_header { padding: .2rem 0 1rem; border-bottom: 1px solid var(--cliniq-border); }
+.st-key-cliniq_page_header h1 { padding: 0 0 .45rem; }
+.st-key-cliniq_brand { padding: 0 .2rem 1rem; }
+.st-key-cliniq_brand h3 { padding-top: 0; font-size: 1.65rem; letter-spacing: -.07em; color: var(--cliniq-deep); }
+.st-key-cliniq_brand p { font-size: .7rem; letter-spacing: .05em; }
+.st-key-cliniq_footer { padding-top: 1.4rem; border-top: 1px solid var(--cliniq-border); }
+.st-key-cliniq_footer p { font-size: .75rem; }
+[class*="st-key-panel_"] { background: var(--cliniq-surface); border-radius: var(--cliniq-radius); box-shadow: var(--cliniq-shadow); }
+.st-key-panel_welcome { background: var(--cliniq-blush); border: 1px solid #F3CFDA; padding: 1.2rem 1.4rem; }
+.st-key-panel_welcome h3 { font-size: 1.4rem; color: var(--cliniq-text); max-width: 28rem; }
+.st-key-cliniq_workflow_hint { border-left: 3px solid var(--cliniq-rose); padding: .5rem 1rem; margin: .7rem 0 1.2rem; }
+.st-key-cliniq_workflow_hint p { margin: 0; }
+.st-key-cliniq_nav a { border-radius: 12px; padding: .65rem .85rem; transition: background .15s ease; }
+.st-key-cliniq_nav a:hover { background: var(--cliniq-blush); }
+.st-key-cliniq_nav a[aria-current="page"] { background: var(--cliniq-rose); color: white; }
+.st-key-cliniq_nav a[aria-current="page"] p { color: white; }
+.status-badge { display: inline-block; padding: .28rem .7rem; border-radius: 7px; font-size: .72rem; font-weight: 650; white-space: nowrap; }
+.status-success { background: #E8F4EE; color: #21664E; }
+.status-warning { background: #FFF2D8; color: #80570F; }
+.status-info { background: #ECF1FA; color: #385A8D; }
+.status-danger { background: #FCE7ED; color: #A52B46; }
+.status-neutral { background: #F2EDF0; color: #66515E; }
+.st-key-workspace button { border-radius: 10px; min-height: 2.6rem; transition: background .12s ease, border-color .12s ease; }
+.st-key-workspace button:focus-visible, .st-key-workspace a:focus-visible { outline: 3px solid #42659D; outline-offset: 3px; }
+.st-key-workspace input:focus-visible, .st-key-workspace textarea:focus-visible { outline: 2px solid #42659D; outline-offset: 2px; }
+.st-key-workspace a { text-underline-offset: .2rem; }
+.st-key-panel_capacity { border-top: 3px solid var(--cliniq-rose); }
+.st-key-rx_remove_submit button, .st-key-ma_remove_submit button { background: #A92F48; color: white; border-color: #A92F48; }
+.st-key-rx_remove_submit button:hover, .st-key-ma_remove_submit button:hover { background: #84243A; }
+@media (max-width: 640px) {
+  .st-key-cliniq_page_header { padding-bottom: .5rem; }
+  .st-key-cliniq_page_header h1 { font-size: 1.8rem; }
+  .st-key-panel_welcome { padding: .9rem 1rem; }
+  .st-key-panel_welcome h3 { font-size: 1.2rem; }
+  .st-key-cliniq_workflow_hint { margin: .5rem 0; }
+}
+@media (prefers-reduced-motion: reduce) { .st-key-workspace button, .st-key-cliniq_nav a { transition: none; } }
+
+.st-key-cliniq_active_nav { background: #FCE7ED; border-left: 3px solid #E84C71; border-radius: 10px; }
+.st-key-cliniq_active_nav a p { color: #9D2944; font-weight: 750; }

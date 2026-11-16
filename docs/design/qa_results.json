@@ -1,0 +1,161 @@
+{
+  "phase": "DEV-010",
+  "pytest": {
+    "passed": 427,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "live_mysql_cases": 135,
+    "seconds": 20.33
+  },
+  "mypy": {
+    "files": 74,
+    "errors": 0
+  },
+  "runtime_workflows": {
+    "steps": 68,
+    "checks": {
+      "dashboard_load": true,
+      "patient_registration": true,
+      "patient_search_and_edit": true,
+      "appointment_create": true,
+      "appointment_filters_and_edit": true,
+      "consultation_create_link": true,
+      "consultation_search_edit": true,
+      "prescription_two_medications": true,
+      "prescription_edit": true,
+      "prescription_confirmation_required": true,
+      "prescription_confirmed_removal": true,
+      "admission_bed_allocation": true,
+      "hospitalization_edit": true,
+      "discharge": true,
+      "stay_history": true,
+      "occupancy_load": true,
+      "medical_act_assignment": true,
+      "medical_act_reassignment": true,
+      "direct_sql_trigger": true,
+      "direct_sql_CIF": true,
+      "assignment_confirmation_required": true,
+      "assignment_confirmed_removal": true,
+      "dashboard_refresh_real_patient_count": true
+    }
+  },
+  "responsive_views": [
+    {
+      "page": "dashboard",
+      "viewport": 1440,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "patients",
+      "viewport": 1440,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "appointments",
+      "viewport": 1440,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "consultations",
+      "viewport": 1440,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "prescriptions",
+      "viewport": 1440,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "hospitalizations",
+      "viewport": 1440,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "medical_acts",
+      "viewport": 1440,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "dashboard",
+      "viewport": 390,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "patients",
+      "viewport": 390,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "appointments",
+      "viewport": 390,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "consultations",
+      "viewport": 390,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "prescriptions",
+      "viewport": 390,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "hospitalizations",
+      "viewport": 390,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    },
+    {
+      "page": "medical_acts",
+      "viewport": 390,
+      "document_overflow": false,
+      "headings": 1,
+      "alerts": []
+    }
+  ],
+  "protected_backend_model_files": 27,
+  "protected_changes": 0,
+  "development_writes": false,
+  "runtime_database": "cliniq_test_dev",
+  "screenshots_are_real": true,
+  "browser": "User-approved local Playwright / installed Chrome",
+  "limitations": [
+    "Chromium desktop and mobile emulation, not physical devices or all browsers",
+    "No exhaustive WCAG/screen-reader certification",
+    "Remote font falls back to system font without network"
+  ],
+  "development_schema_and_keys_unchanged": true,
+  "original_patient_records_preserved": true,
+  "development_final_row_count": 90,
+  "additional_patient_since_dev009_baseline": 1,
+  "development_change_origin": "Not determined; this task issued no development writes",
+  "test_seed_restored": true,
+  "temporary_server_stopped": true
+}

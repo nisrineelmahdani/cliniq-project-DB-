@@ -1,0 +1,7 @@
+# Direct versions actually exercised in DEV-009; not a transitive lockfile.
+streamlit==1.67.0
+mysql-connector-python==26.10.0
+python-dotenv==1.2.4
+pytest==9.2.0
+pandas==3.1.1
+# plotly is declared in requirements.txt but unused by current source and absent locally.
